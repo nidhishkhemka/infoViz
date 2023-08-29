@@ -52,3 +52,25 @@ body {
 .tableauPlaceholder {
   width: 100%;
 }
+.imageContainer{
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.csvTable{
+  width: 80%;
+  margin: auto;
+}
+
+.csvTableData{
+  margin: auto;
+  padding: 2rem;
+}
+
+.centerHeader{
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}

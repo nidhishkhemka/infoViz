@@ -1,0 +1,51 @@
+Source,Target,Type,Id,Label,Weight
+20,0,Undirected,0,Adani Enterprises,1
+20,0,Undirected,1,Adani Ports and SEZ,1
+20,0,Undirected,2,Apollo Hospitals,1
+20,1,Undirected,3,Asian Paints,1
+20,2,Undirected,4,Axis Bank,1
+20,3,Undirected,5,Bajaj Auto,1
+20,4,Undirected,6,Bajaj Finance,1
+20,4,Undirected,7,Bajaj Finserve,1
+20,5,Undirected,8,Bharti Airtel,1
+20,6,Undirected,9,BPCL,1
+20,7,Undirected,10,CIPLA,1
+20,21,Undirected,11,Coal India,1
+20,7,Undirected,12,DIVIS Laboratories,1
+20,7,Undirected,13,Dr. Reddy's Lab,1
+20,3,Undirected,14,Eicher Motors,1
+20,8,Undirected,15,Grasim,1
+20,9,Undirected,16,HCL Technologies,1
+20,2,Undirected,17,HDFC Bank,1
+20,10,Undirected,18,HDFC Life Insurance,1
+20,3,Undirected,19,Hero Motocorp,1
+20,11,Undirected,20,Hindalco,1
+20,12,Undirected,21,HUL,1
+20,2,Undirected,22,ICICI Bank,1
+20,2,Undirected,23,IndusInd Bank,1
+20,9,Undirected,24,Infosys,1
+20,6,Undirected,25,IOC,1
+20,13,Undirected,26,ITC,1
+20,14,Undirected,27,JSW Steel,1
+20,2,Undirected,28,Kotak Mahindra Bank,1
+20,15,Undirected,29,L&T,1
+20,9,Undirected,30,LTIMINDTREE,1
+20,3,Undirected,31,M&M,1
+20,3,Undirected,32,Maruti Suzuki,1
+20,13,Undirected,33,Nestle,1
+20,16,Undirected,34,NTPC,1
+20,6,Undirected,35,ONGC,1
+20,16,Undirected,36,Power Grid,1
+20,6,Undirected,37,Reliance India,1
+20,2,Undirected,38,SBI,1
+20,10,Undirected,39,SBI Life Insurance,1
+20,7,Undirected,40,Sun Pharma,1
+20,12,Undirected,41,Tata Consumer,1
+20,3,Undirected,42,Tata Motors,1
+20,14,Undirected,43,Tata Steel,1
+20,9,Undirected,44,TCS,1
+20,9,Undirected,45,Tech Mahindra,1
+20,17,Undirected,46,Titan,1
+20,18,Undirected,47,Ultratech Cement,1
+20,19,Undirected,48,UPL,1
+20,9,Undirected,49,Wipro,1

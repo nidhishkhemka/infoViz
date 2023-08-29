@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbarList">
+          <li>
+            <a href="/index.html"> Home </a>
+          </li>
+          <li>
+            <a href="abstract.html"> Abstract </a>
+          </li>
+          <li>
+            <a href="tableau.html"> Tableau </a>
+          </li>
+          <li>
+            <a href="gephi.html"> Gephi </a>
+          </li>
+          <li>
+            <a href="python.html"> Python </a>
+          </li>
+          <li>
+            <a href="research.html"> Research </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="centerHeader">
+        Graph of all NIFTY 50 companies and their sectors
+      </div>
+      <div class="imageContainer">
+        <img src="gephiImage.jpg" />
+      </div>
+
+      <div class="centerHeader">
+        Data Source
+      </div>
+      <div class="csvTable">
+        <table class="csvTableData" id="csvData">
+            <!-- The table content will be added dynamically using JavaScript -->
+        </table>
+    </div>
+
+
+
+      <script>
+        // Function to render CSV data into an HTML table
+        function renderCSVToTable(data) {
+            var table = document.getElementById('csvData');
+            var lines = data.split('\n');
+            for (var i = 0; i < lines.length; i++) {
+                var row = lines[i].split(',');
+                var newRow = table.insertRow();
+                for (var j = 0; j < row.length; j++) {
+                    var cell = newRow.insertCell();
+                    cell.innerHTML = row[j];
+                }
+            }
+        }
+
+        // Read and render CSV file
+        fetch('Gephi.csv')  // Replace with the actual path to your CSV file
+            .then(response => response.text())
+            .then(data => {
+                renderCSVToTable(data);
+            })
+            .catch(error => {
+                console.error('Error reading CSV file:', error);
+            });
+    </script>
+</body>
+</html>
